@@ -6,13 +6,12 @@ Codebook describes the variables, the data, and any transformations.
 
 Variable name    | Description
 -----------------|------------
-subjects         | ID the subject who performed the activity for each window sample. Its range is from 1 to 30.
+subjects         | ID the subject who performed the activity for each window sample.
 activity         | Activity name
-features         | Feature: Time domain signal or frequency domain signal (Time or Freq)
+featuresName     | Name of features
 measurement      | Feature: Measurements e.g. tBodyAcc-mean()-X, tBodyAcc-std()-X, tBodyAcc-mad()-X
 
-The dataset includes the following files:
-=========================================
+## The dataset includes the following files:
 
 - 'README.txt'
 - 'features_info.txt': Shows information about the variables used on the feature vector.
