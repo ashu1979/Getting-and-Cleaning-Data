@@ -45,4 +45,4 @@ data <- merge(data, features, by = "featureCode", all.x = TRUE)
 tidyData <- dcast(data, subject+activityID ~ featureName, mean, value.var = "featureValue")
 
 ## Write data to tidyData.txt file.
-write.table(tidyData, file = "tidyData.txt")
+write.table(tidyData, file = "tidyData.txt", row.name = FALSE)
