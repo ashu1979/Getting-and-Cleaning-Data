@@ -4,7 +4,7 @@ require("reshape2")
 
 ## Download file from the source and named it data.zip. Unzip it later to it's default directory "UCI HAR Dataset" in current working directory.
 download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", "data.zip")
-unzip("data.zip", list = TRUE)
+unzip("data.zip")
 
 ## Read Subject data from train and test files respectively. Change the name of the column from default.
 subjects <- rbind(fread("UCI HAR Dataset/train/subject_train.txt"), fread("UCI HAR Dataset/test/subject_test.txt"))
