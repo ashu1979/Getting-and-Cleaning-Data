@@ -24,7 +24,7 @@ You should create one R script called run_analysis.R that does the following:
 It follows the goals step by step.
 
 * Step 1:
-  * Read all the test and training files: y_*.txt, subject_*.txt and X_*.txt.
+  * Read all the test and training files: y_\*.txt, subject_\*.txt and X_*.txt.
   * Change the column names.
   * Combine the files to a data table in the form of subjects, labels, the rest of the data.
   * merge the above data tables to a single data table named "data".
